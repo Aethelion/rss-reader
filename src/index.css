@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ensure the dark theme spans the whole height */
+html, body, #root {
+  height: 100%;
+  background-color: black;
+}
